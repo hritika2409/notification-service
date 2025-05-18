@@ -52,7 +52,6 @@ This project is a simple yet extensible notification service built with **Node.j
 Watch the notification service in action processing prioritized notifications, retrying failed attempts, and delivering messages smoothly:
 
 ![Notification Service Demo](./Working.gif)  
-*(Replace this with an actual video or animated GIF of your running service)*
 
 ---
 
