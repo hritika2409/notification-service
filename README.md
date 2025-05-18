@@ -63,7 +63,7 @@ Watch the notification service in action processing prioritized notifications, r
 
 ### Notification Sent Successfully (SMS)
 
-![Message Send Successfully](./message.jpg)
+![Message Send Successfully](./message.png)
 
 ### MongoDB Database Snapshot
 
