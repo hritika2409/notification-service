@@ -21,10 +21,10 @@ async function sendTestMessage() {
   });
 
   const msg = {
-    userId: '345',
+    userId: '123',
     type: 'email',
-    priority: 'normal',
-    message: 'Can we meet today?',
+    priority: 'low',
+    message: 'Hey',
   };
 
   channel.sendToQueue(queue, Buffer.from(JSON.stringify(msg)), {
