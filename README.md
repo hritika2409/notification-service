@@ -60,8 +60,7 @@ This project is a simple yet extensible notification service built with **Node.j
 ### Example: Notification Queue Consumer
 
 ![Notification Queue Consumer](./priority.jpg)
-
-> Replace this image with an actual screenshot of your terminal running `consumer.js` showing messages being processed.
+![Message Send Successfully](./sms.jpg)
 
 ---
 
