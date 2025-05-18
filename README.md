@@ -34,15 +34,6 @@ This project is a simple yet extensible notification service built with **Node.j
 
 ---
 
-## 🧪 API Endpoints
-
-| Method | Endpoint                      | Description                         |
-|--------|-------------------------------|-------------------------------------|
-| POST   | `/api/notifications`          | Send a new notification             |
-| GET    | `/api/users/:id/notifications`| Get all notifications for a user    |
-
----
-
 ## 📦 Technologies Used
 
 - **Node.js**
@@ -55,12 +46,29 @@ This project is a simple yet extensible notification service built with **Node.j
 
 ---
 
-## 📷 Screenshot
 
-### Example: Notification Queue Consumer
+## 🎥 Demo Video
+
+Watch the notification service in action processing prioritized notifications, retrying failed attempts, and delivering messages smoothly:
+
+![Notification Service Demo](./working.mp4)  
+*(Replace this with an actual video or animated GIF of your running service)*
+
+---
+
+## 🖼️ Screenshots
+
+### Notification Queue Consumer Processing
 
 ![Notification Queue Consumer](./priority.jpg)
+
+### Notification Sent Successfully (SMS)
+
 ![Message Send Successfully](./sms.jpg)
+
+### MongoDB Database Snapshot
+
+![MongoDB Database](./mongodb.jpg)
 
 ---
 
