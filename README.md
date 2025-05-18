@@ -68,7 +68,7 @@ Watch the notification service in action processing prioritized notifications, r
 
 ### MongoDB Database Snapshot
 
-![MongoDB Database](./mongodb.png)
+![MongoDB Database](./mongoDB.png)
 
 ---
 
