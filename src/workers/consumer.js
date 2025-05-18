@@ -18,11 +18,11 @@ async function consume() {
 
     console.log('[*] Waiting for messages in %s...', queue);
 
-    // ✅ Correct database and collection name from your screenshot
+  
     const mongoClient = new MongoClient(process.env.MONGODB_URI);
     await mongoClient.connect();
-    const db = mongoClient.db('Notification'); // ✔ Corrected from "PepSale" to "Notification"
-    const notificationsCollection = db.collection('Notification-services'); // ✔ Corrected collection name
+    const db = mongoClient.db('Notification'); 
+    const notificationsCollection = db.collection('Notification-services'); 
 
     channel.consume(queue, async (msg) => {
       if (msg !== null) {
