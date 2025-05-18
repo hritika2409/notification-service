@@ -6,7 +6,7 @@ This project is a simple yet extensible notification service built with **Node.j
 
 ## 📬 Features
 
-- ✅ **Send notifications** via Email, SMS, or In-App
+- ✅ **Send notifications** via Email(Using SMTP), SMS(Using Twilio), or In-App
 - ✅ **Queue-based processing** using RabbitMQ for performance and scalability
 - ✅ **Priority queue** handling: `critical`, `normal`, `low`
 - ✅ **Retry mechanism** for failed notifications
@@ -57,13 +57,13 @@ Watch the notification service in action processing prioritized notifications, r
 
 ## 🖼️ Screenshots
 
-### Notification Queue Consumer Processing
+### Notification Queue Consumer Processing(in-app)
 
 ![Notification Queue Consumer](./priority.jpg)
 
 ### Notification Sent Successfully (SMS)
 
-![Message Send Successfully](./sms.jpg)
+![Message Send Successfully](./message.jpg)
 
 ### MongoDB Database Snapshot
 
